@@ -1,0 +1,28 @@
+{
+    "name": "codicastudio/nova-radio-field",
+    "description": "A noobs worthless garbage, just learning.",
+    "keywords": [
+        "worthless garabage by a noob."
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "codicastudio\\RadioField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "codicastudio\\RadioField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
